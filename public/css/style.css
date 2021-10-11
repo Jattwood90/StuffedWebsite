@@ -144,6 +144,7 @@ hr {
   margin-bottom: 70px;
 }
 .section-title h2 {
+  font-family: Textile;
   position: relative;
   margin-top: 10px;
   margin-bottom: 15px;
@@ -208,8 +209,8 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
+  background: black;
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -231,6 +232,15 @@ a:focus,
   font-weight: 800;
   color: #5ca9fb;
 }
+
+@font-face {
+  font-family: "Textile"; src: url("//db.onlinewebfonts.com/t/653f0331330580a51716e5cbb69d8db9.eot"); 
+  src: url("//db.onlinewebfonts.com/t/653f0331330580a51716e5cbb69d8db9.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/653f0331330580a51716e5cbb69d8db9.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/653f0331330580a51716e5cbb69d8db9.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/653f0331330580a51716e5cbb69d8db9.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/653f0331330580a51716e5cbb69d8db9.svg#Textile") format("svg"); 
+}
 .intro p {
   color: #fff;
   font-size: 22px;
@@ -238,6 +248,7 @@ a:focus,
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+  font-family: Textile;
 }
 header .intro-text {
   padding-top: 350px;
@@ -272,6 +283,7 @@ header .intro-text {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
+  font-family: Textile;
 }
 #about h2::after {
   position: absolute;
@@ -370,8 +382,8 @@ header .intro-text {
   color: #fff;
   background: linear-gradient(
     to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
+    rgba(50, 50, 51, 0.8) 0%,
+    rgba(182, 183, 184, 0.8) 100%
   );
   padding: 30% 0 0;
   height: 100%;
@@ -460,7 +472,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, black 0%, #f7f7f8 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -468,12 +480,14 @@ header .intro-text {
 }
 #contact .section-title p {
   font-size: 16px;
+  
 }
 #contact h2 {
   color: #fff;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
+  font-family: Textile;
 }
 #contact .section-title h2::after {
   position: absolute;
@@ -490,6 +504,7 @@ header .intro-text {
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
+  font-family: Textile;
 }
 #contact form {
   padding-top: 20px;

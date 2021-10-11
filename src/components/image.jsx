@@ -21,3 +21,4 @@ export const Image = ({ title, largeImage, smallImage }) => {
     </div>
   )
 }
+// make a back button for larger image
